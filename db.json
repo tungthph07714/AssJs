@@ -25,21 +25,20 @@
       "id": 3
     }
   ],
-  "posts": [
+  "categories": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "name": "Iphone"
     }
   ],
-  "comments": [
+  "orders": [
     {
       "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "productId": "some comment",
+      "quantity": 1,
+      "dateOrder": 1,
+      "phone": 1,
+      "address": "1"
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
