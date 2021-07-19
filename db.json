@@ -1,0 +1,45 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullname": "abc",
+      "phone": "0123456",
+      "email": "tung@gmal.com",
+      "age": "19",
+      "gender": "true"
+    },
+    {
+      "fullname": "tung123",
+      "phone": "0123456789",
+      "email": "quaycu01@gmail.com",
+      "age": "23",
+      "gender": "false",
+      "id": 2
+    },
+    {
+      "fullname": "tung1234",
+      "phone": "0123456789",
+      "email": "quaycu01@gmail.com",
+      "age": "20",
+      "gender": "true",
+      "id": 3
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
