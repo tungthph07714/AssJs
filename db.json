@@ -25,6 +25,17 @@
       "id": 3
     }
   ],
+  "product":[
+    {
+
+      "productName": "tung1234",
+      "productDesc": "0123456789",
+      "price": "quaycu01@gmail.com",
+      "image": "20",
+      "cateId": "true",
+      "id": 3
+    }
+  ],
   "categories": [
     {
       "id": 1,
