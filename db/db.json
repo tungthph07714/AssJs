@@ -1,0 +1,38 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullname": "namnDn",
+      "phone": "0909",
+      "email": "namdn@gmail.com",
+      "age": "44",
+      "gender": "true"
+    },
+    {
+      "id": 3,
+      "fullname": "Bao Bao",
+      "phone": "0905123456",
+      "email": "baobao@gmail.com",
+      "age": 22,
+      "gender": false
+    },
+    {
+      "fullname": "tung123",
+      "phone": "123456",
+      "email": "tungtranhuu3005@gmail.com",
+      "age": "5",
+      "gender": "true",
+      "id": 4
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
