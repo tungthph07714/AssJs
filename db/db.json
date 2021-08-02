@@ -2,37 +2,77 @@
   "users": [
     {
       "id": 1,
-      "fullname": "namnDn",
-      "phone": "0909",
-      "email": "namdn@gmail.com",
-      "age": "44",
+      "fullname": "abc",
+      "phone": "0123456",
+      "email": "tung@gmal.com",
+      "age": "19",
       "gender": "true"
     },
     {
-      "id": 3,
-      "fullname": "Bao Bao",
-      "phone": "0905123456",
-      "email": "baobao@gmail.com",
-      "age": 22,
-      "gender": false
+      "fullname": "tung123",
+      "phone": "0123456789",
+      "email": "quaycu01@gmail.com",
+      "age": "23",
+      "gender": "false",
+      "id": 2
     },
     {
-      "fullname": "tung123",
-      "phone": "123456",
-      "email": "tungtranhuu3005@gmail.com",
-      "age": "5",
+      "fullname": "tung1234",
+      "phone": "0123456789",
+      "email": "quaycu01@gmail.com",
+      "age": "20",
       "gender": "true",
-      "id": 4
+      "id": 3
     }
   ],
-  "comments": [
+  "product": [
+    {
+      "productName": "iphone12",
+      "productDesc": "đây là mô tả",
+      "price": "50000",
+      "image": "https://img.nhandan.com.vn/Files/Images/2020/07/26/nhat_cay-1595747664059.jpg",
+      "cateId": "1",
+      "id": 3
+    },
+    {
+      "productName": "Áo hoa",
+      "productDesc": "đây là mô tả",
+      "price": "2000000",
+      "image": "https://maytinhvui.com/wp-content/uploads/2020/11/hinh-nen-may-tinh-4k-game-min.jpg",
+      "cateId": "áo",
+      "id": 4
+    },
+    {
+      "productName": "quần hoa",
+      "productDesc": "đây là mô tả",
+      "price": "10000",
+      "image": "https://img.nhandan.com.vn/Files/Images/2020/07/26/nhat_cay-1595747664059.jpg",
+      "cateId": "2",
+      "id": 5
+    }
+  ],
+  "categories": [
     {
       "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "name": "Iphone"
+    },
+    {
+      "name": "quần",
+      "id": 2
+    },
+    {
+      "name": "áo",
+      "id": 3
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "orders": [
+    {
+      "id": 1,
+      "productId": "some comment",
+      "quantity": 1,
+      "dateOrder": 1,
+      "phone": 1,
+      "address": "1"
+    }
+  ]
 }

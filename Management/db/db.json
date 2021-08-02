@@ -1,0 +1,70 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullname": "abc",
+      "phone": "0123456",
+      "email": "tung@gmal.com",
+      "age": "19",
+      "gender": "true"
+    },
+    {
+      "fullname": "tung123",
+      "phone": "0123456789",
+      "email": "quaycu01@gmail.com",
+      "age": "23",
+      "gender": "false",
+      "id": 2
+    },
+    {
+      "fullname": "tung1234",
+      "phone": "0123456789",
+      "email": "quaycu01@gmail.com",
+      "age": "20",
+      "gender": "true",
+      "id": 3
+    }
+  ],
+  "product": [
+    {
+      "productName": "iphone12",
+      "productDesc": "đây là mô tả",
+      "price": "50000",
+      "image": "https://img.nhandan.com.vn/Files/Images/2020/07/26/nhat_cay-1595747664059.jpg",
+      "cateId": "Iphone",
+      "id": 3
+    },
+    {
+      "productName": "Áo hoa",
+      "productDesc": "đây là mô tả",
+      "price": "2000000",
+      "image": "https://maytinhvui.com/wp-content/uploads/2020/11/hinh-nen-may-tinh-4k-game-min.jpg",
+      "cateId": "áo",
+      "id": 4
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Iphone"
+    },
+    {
+      "name": "quần",
+      "id": 2
+    },
+    {
+      "name": "áo",
+      "id": 3
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "productId": "some comment",
+      "quantity": 1,
+      "dateOrder": 1,
+      "phone": 1,
+      "address": "1"
+    }
+  ]
+}
