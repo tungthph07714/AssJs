@@ -23,7 +23,7 @@ const tablePro = document.querySelector("#detailPro");
 const renderPro = (user) => {
   const output1 = `
   <div
-  class="fillter col-3  text-center"
+  class="fillter col-md-3 col-sm-6  text-center"
   
 >
   <img class="card-img-top" src="${user.image}" alt="Card image cap" />
@@ -32,7 +32,7 @@ const renderPro = (user) => {
     <p class="card-text">${user.price} VND</p>
     <div class="card-body">
       <a
-        href="detail.html?id=${user.id}"
+        href="single-product.html?id=${user.id}"
         class="btn-edit btn btn-primary"
         target="_blank"
         >Chi tiết</a

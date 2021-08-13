@@ -1,30 +1,4 @@
 {
-  "users": [
-    {
-      "id": 1,
-      "fullname": "abc",
-      "phone": "0123456",
-      "email": "tung@gmal.com",
-      "age": "19",
-      "gender": "true"
-    },
-    {
-      "fullname": "tung123",
-      "phone": "0123456789",
-      "email": "quaycu01@gmail.com",
-      "age": "23",
-      "gender": "false",
-      "id": 2
-    },
-    {
-      "fullname": "tung1234",
-      "phone": "0123456789",
-      "email": "quaycu01@gmail.com",
-      "age": "20",
-      "gender": "true",
-      "id": 3
-    }
-  ],
   "product": [
     {
       "productName": "iphone12",
@@ -35,19 +9,19 @@
       "id": 3
     },
     {
-      "productName": "Áo hoa",
+      "productName": "SamSung Z Series",
       "productDesc": "đây là mô tả",
       "price": "2000000",
       "image": "https://maytinhvui.com/wp-content/uploads/2020/11/hinh-nen-may-tinh-4k-game-min.jpg",
-      "cateId": "áo",
+      "cateId": "SamSung",
       "id": 4
     },
     {
-      "productName": "quần hoa",
+      "productName": "Nokia 1280",
       "productDesc": "đây là mô tả",
       "price": "10000",
       "image": "https://img.nhandan.com.vn/Files/Images/2020/07/26/nhat_cay-1595747664059.jpg",
-      "cateId": "quần",
+      "cateId": "Nokia",
       "id": 5
     }
   ],
@@ -57,11 +31,11 @@
       "name": "Iphone"
     },
     {
-      "name": "quần",
+      "name": "SamSung",
       "id": 2
     },
     {
-      "name": "áo",
+      "name": "Nokia",
       "id": 3
     }
   ],
