@@ -25,7 +25,7 @@ fetch(urlCate)
 const selectCate = document.querySelector("#cate");
 const renderCate1 = (cate) => {
   const select = `
-    <option value='${cate.id}'>${cate.name}</option>
+    <option >${cate.name}</option>
     `;
   selectCate.insertAdjacentHTML("beforeend", select);
 };

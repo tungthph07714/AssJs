@@ -1,23 +1,14 @@
 const url = "http://localhost:3000/product";
+const urlCate = "http://localhost:3000/categories";
 let id = "";
 
 fetch(url)
   .then((res) => res.json())
   .then((data) => {
     data.forEach((user) => {
-      renderUsers(user);
       renderPro(user);
     });
   });
-
-const tableUsers = document.querySelector("#listPro");
-const renderUsers = (user) => {
-  const output = `
-  <option value="${user.cateId}">${user.cateId}</option>
-		
-      `;
-  tableUsers.insertAdjacentHTML("beforeend", output);
-};
 
 const tablePro = document.querySelector("#detailPro");
 const renderPro = (user) => {
@@ -28,7 +19,7 @@ const renderPro = (user) => {
 >
   <img class="card-img-top" src="${user.image}" alt="Card image cap" />
   <div class="card-body">
-    <h5 class="card-title">${user.productName}</h5>
+    <h5 class="card-title ">${user.productName}</h5>
     <p class="card-text">${user.price} VND</p>
     <div class="card-body">
       <a
@@ -45,6 +36,19 @@ const renderPro = (user) => {
   tablePro.insertAdjacentHTML("beforeend", output1);
 };
 // chức năng lọc
+fetch(urlCate)
+  .then((res) => res.json())
+
+  .then((data) => {
+    var output = "";
+    data.forEach((user) => {
+      output += `
+    <option value="${user.name}">${user.name}</option>
+    `;
+    });
+    document.querySelector("#listPro").innerHTML = output;
+  });
+
 document.querySelector("#listPro").addEventListener("change", function () {
   var id = document.querySelector("#listPro").value;
   fetch(url)
